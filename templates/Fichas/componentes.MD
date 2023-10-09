@@ -17,20 +17,20 @@
 - [x] Escolaridade -- 14
 - [x] Numero do cartão SUS -- 15
 - [x] Nome da mãe -- 16
-- [ ] Data dos 1º sintomas do 1º caso suspeito -- 17
-- [ ] Nº de casos suspeitos / expostos -- 18
-- [ ] Local Inicial de Ocorrencia do surto -- 19
-- [ ] UF -- 20
-- [ ] Municipio de Residencia -- 21
-- [ ] Distrito -- 22
-- [ ] Bairro -- 23
-- [ ] Logradouro -- 24
-- [ ] Numero -- 25
-- [ ] Complemento   -- 26
-- [ ] Geo campo 1 -- 27
-- [ ] Geo campo 2 -- 28
-- [ ] Ponto de Referencia -- 29
-- [ ] CEP -- 30
-- [ ] (DDD) Telefone -- 31
-- [ ] Zona -- 32
-- [ ] País -- 33
+- [x] Data dos 1º sintomas do 1º caso suspeito -- 17
+- [x] Nº de casos suspeitos / expostos -- 18
+- [x] Local Inicial de Ocorrencia do surto -- 19
+- [x] UF -- 20
+- [x] Municipio de Residencia -- 21
+- [x] Distrito -- 22
+- [x] Bairro -- 23
+- [x] Logradouro -- 24
+- [x] Numero -- 25
+- [x] Complemento   -- 26
+- [x] Geo campo 1 -- 27
+- [x] Geo campo 2 -- 28
+- [x] Ponto de Referencia -- 29
+- [x] CEP -- 30
+- [x] (DDD) Telefone -- 31
+- [x] Zona -- 32
+- [x] País -- 33
