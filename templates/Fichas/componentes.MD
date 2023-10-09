@@ -1,0 +1,36 @@
+# ficha de notificação:
+#### Campos:
+
+- [x] Tipo de notificação -- 1
+- [x] Agravo/doença -- 2
+- [x] Data da notificação -- 3
+- [x] UF -- 4
+- [x] Municipio de notificação -- 5
+- [x] Unidade de saúde -- 6
+- [x] Data dos primeiros Sintomas -- 7
+- [x] Nome do paciente -- 8
+- [x] Data de nascimento -- 9
+- [x] Idade -- 10
+- [x] Sexo -- 11
+- [x] Gestante -- 12
+- [x] Raça/cor -- 13
+- [x] Escolaridade -- 14
+- [x] Numero do cartão SUS -- 15
+- [x] Nome da mãe -- 16
+- [ ] Data dos 1º sintomas do 1º caso suspeito -- 17
+- [ ] Nº de casos suspeitos / expostos -- 18
+- [ ] Local Inicial de Ocorrencia do surto -- 19
+- [ ] UF -- 20
+- [ ] Municipio de Residencia -- 21
+- [ ] Distrito -- 22
+- [ ] Bairro -- 23
+- [ ] Logradouro -- 24
+- [ ] Numero -- 25
+- [ ] Complemento   -- 26
+- [ ] Geo campo 1 -- 27
+- [ ] Geo campo 2 -- 28
+- [ ] Ponto de Referencia -- 29
+- [ ] CEP -- 30
+- [ ] (DDD) Telefone -- 31
+- [ ] Zona -- 32
+- [ ] País -- 33

@@ -1,0 +1,56 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#raca, #gestante, #sexo ,#age{
+    display: inline-flex;
+    height: 59px;
+}
+
+#dateSintomas, #LocalOcurrence{
+    display: inline-table;
+}
+
+#LocalInputs{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+h5 , h6 , h4{
+    margin: 5px 0px 0px 5px; /* up left down right  */
+    display: inline-flex;
+}
+
+label{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+input{
+    margin-top: 5px;
+}
+
+table{
+    font-size: 14px;
+    font-style: oblique;
+}
+
+#age_input, #age_input2{
+    height: 16px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+ #dateSintomas_input, #firstSintomasDate, #especOcurr{
+    height: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#locOcurr{
+    width: 30px;
+    height: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+}

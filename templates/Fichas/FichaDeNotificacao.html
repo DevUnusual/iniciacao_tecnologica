@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+<div class="DadosGerais">
+    <label for="Tipo">Tipo de notificação </label>
+    <input name="Tipo" id="TypeNotification" size="2">
+    <span> 1 - Negativa | 2 - Individual | 3 - Surto | 4 - Inquerito Tracoma </span>
+    <br>
+    <label> Agravo/Doença: </label>
+    <input type="text" size="62">
+    <label> Data da notificação: </label>
+    <input type="date" id="DateOfNotification">
+    <br>
+    <label> UF: </label>
+    <input type="text" size="2">
+    <label> Município de Notificação: </label>
+    <input type="text" size="30">
+    <!-- <label> Código IBGE: </label> -->
+    <input type="text" size="10" placeholder="Cód IBGE">
+    <br>
+    <label> Unidade de saude (ou outra fonte notificadora)</label>
+    <input type="text" size="30">
+    <input type="text" size ="7" placeholder="Código">
+    <label>Data dos primeiros sintomas</label>
+    <input type="date" id="DateOfFirstSymptoms">
+    <br>
+</div>
+<div class="NotificacaoIndividual">
+    <span>
+        <h5>Nome do paciente</h5>
+        <input type="text" size="30">
+        <h5>Data de nascimento</h5>
+        <input type="date" id="DateOfBirth">
+        <br>
+        <div id="age">
+            <h5>(ou) idade:</h5>
+            <input type="text" size="3" id="age_input">
+            <h6>1-Hora <br> 2-Dia <br> 3-Mês <br> 4-Ano</h6>
+            <input type="text" size="1" id="age_input2">
+        </div>
+        <div id="sexo">
+            <h5>Sexo</h5>
+            <h5> <br> M-asculino <br> F-eminino <br> I-gnorado</h5>
+        </div>
+        <input type="text" size="1">
+        <div id="gestante">
+            <h5>Gestante: <br> 1- 1ºTrimestre || 2- 2ºTrimestre || 3- 3ºTrimestre || <br> 4- idade gestacional ignorada || 5- Não || 6- Não se aplica || 9-Ignorado</h5>
+        </div>
+        <input type="text" size="1" id="gestante_input">
+        <div id="raca">
+            <h5>Cor/Raça: <br> 1- Branca || 2- Preta || 3- Amarela <br> || 4- Parda || 5- Indígena || 9- Ignorado</h5>
+        </div>
+        <input type="text" size="1">
+        <br>
+        <table border="1">
+            <tr>
+                <td>0- Analfabeto</td>
+                <td>1- 1º a 4º série incompleta do EF(antigo primário ou 1ºgrau)</td>
+                <td>2- 4º série completa do EF</td>
+                <td>3- 5º a 8º série incompleta do EF(antigo ginasio e 1ºgrau)</td>
+            </tr>
+            <tr>
+                <td>4- Ensino fundamental completo</td>
+                <td>5- Ensino médio incompleto (antigo colegial ou 2ºgrau)</td>
+                <td>6- Ensino médio completo(antigo colegial ou 2ºgrau)</td>
+                <td>7- Educação suprior incompleta</td>
+            </tr>
+            <tr>
+                <td>8- Educação Superior completa</td>
+                <td>9- Ignorado</td>
+                <td>10- Não se aplica</td>
+            </tr>
+        </table>
+        <h4>Escolaridade: </h4> <input type="text" size="1"> <br>
+        <h5>Cartão do SUS: </h5>    
+        <input type="text" size="18" placeholder="Numero do cartão SUS">
+        <h5>Nome da mãe:</h5>
+        <input type="text" size="40" placeholder="Nome da mãe.">
+    </span>
+</div>
+<div class="NotifacaoDeSurto">
+    <span>
+        <div id="dateSintomas">
+            <h5>Data dos 1ºs Sintomas <br> do 1º caso suspeito </h5> <br>
+            <input type="date" id="firstSintomasDate">
+            <br>
+            <h5>Nº de casos suspeitos/Expostos</h5><br>
+            <input type="text" size="2" id="dateSintomas_input">
+        </div>
+        <div id="LocalOcurrence">
+            <h5>Local Inicial de Ocorrência do Surto <br></h5>
+            <table border="1">
+                <tr>
+                    <td>1 - Residência</td>
+                    <td>2 - Hospital / Unidade de Saúde</td>
+                    <td>3 - Creche / Escola</td>
+                </tr>
+                <tr>
+                    <td>4 - Asilo</td>
+                    <td>5 - Outras Instituições (Alojamento, trabalho)</td>
+                    <td>6 - Restaurante / Padaria</td>
+                </tr>
+                <tr>
+                    <td>7 - Eventos</td>
+                    <td>8 - Casos Dispersos no bairro</td>
+                    <td>9 - Casos Dispersos Pelo Municipio</td>
+                </tr>
+                <tr>
+                    <td>10 - Casos Dispersos em mais de um Município</td>
+                    <td>11 - Outros</td>
+                </tr>
+            </table>
+        </div>
+        <div id="LocalInputs">
+            <br>
+            <input type="text" size="2" id="locOcurr"> <br>
+            <input type="text" size="15" placeholder="Especificar" id="especOcurr">
+        </div>
+    </span>
+</div>
+<div class="DadosDeResidencia">
+    
+</div>
+
+</body>
+</html>
